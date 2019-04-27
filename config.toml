@@ -4,6 +4,11 @@ path = ".sgb-db"
 [rules]
 chan = "570744461349486638"
 msg = "570775274023682096"
+support = "571548125450207238"
+feed = "571543471668723712"
+general = "561976602192510982"
+joinmsg = "Welcome {} to our community!"
+giverole = "569785315934470155"
 
 [mod]
 chan = "571567161714278401"
@@ -11,7 +16,7 @@ chan = "571567161714278401"
 [strings]
 
 initial = """
-Hello, %s, and welcome to SuperGreenLab's official Discord server.
+Hello, {}, and welcome to SuperGreenLab's official Discord server.
 There are a few extra steps so we are able to better assist you.
 This is an official bot and can be verified by the visible "SuperGreenBot" role in the server.
 
@@ -22,7 +27,7 @@ Please click the emoji reaction for the following choices:
 
 vistorSuccess = """
 Thank you! As a visitor, you have access to the general chat channel.
-If you have questions, contact one of our moderators: %s
+If you have questions, contact one of our moderators: {}
 
 [insert animated weed guy here]
 """
@@ -39,7 +44,7 @@ Please try again; the provided details could not be found in our system.
 
 checkProductSuccess = """
 Thank you! As a verified customer, you have access to all public channels.
-If you have questions, contact one of our moderators: %s
+If you have questions, contact one of our moderators: {}
 
 [insert animated weed guy here]
 """

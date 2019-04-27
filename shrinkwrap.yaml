@@ -7,6 +7,7 @@ dependencies:
   libsodium-wrappers: 0.7.4
   lokijs: 1.5.6
   micromatch: 4.0.2
+  string-format: 2.0.0
   toml: 3.0.0
   uws: 9.148.0
 packages:
@@ -294,6 +295,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-NjxjITIj04Ffqid5lqr7XdgwM7X61c/Dns073Ly170bPQHLm6jkmelye/eglS++1nfTWktpP6Y2bFXjdPlQqdw==
+  /string-format/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-bbEs3scLeYNXLecRRuk6uJxdXUSj6le/8rNPHChIJTn2V79aXVTR1EH2OH5zLKKoz0V02fOUKZZcw01pLUShZA==
   /string_decoder/1.2.0:
     dependencies:
       safe-buffer: 5.1.2
@@ -370,5 +375,6 @@ specifiers:
   libsodium-wrappers: ^0.7.4
   lokijs: ^1.5.6
   micromatch: ^4.0.2
+  string-format: ^2.0.0
   toml: ^3.0.0
   uws: ^9.148.0
