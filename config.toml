@@ -1,0 +1,45 @@
+[db]
+path = ".sgb-db"
+
+[rules]
+chan = "570744461349486638"
+msg = "570775274023682096"
+
+[mod]
+chan = "571567161714278401"
+
+[strings]
+
+initial = """
+Hello, %s, and welcome to SuperGreenLab's official Discord server.
+There are a few extra steps so we are able to better assist you.
+This is an official bot and can be verified by the visible "SuperGreenBot" role in the server.
+
+Please click the emoji reaction for the following choices:
+ • :one: I have purchased a SuperGreenLab product before
+ • :two: I'm just visiting or I am curious about a product
+"""
+
+vistorSuccess = """
+Thank you! As a visitor, you have access to the general chat channel.
+If you have questions, contact one of our moderators: %s
+
+[insert animated weed guy here]
+"""
+
+checkProduct = """
+OK, let's verify that you are a customer so you can get benefits in our Discord and better support.
+Please send me the confirmation number of your last purchase and it will be automatically checked. This can be found in the e-mail confirmation of the order.
+Otherwise, click :octagonal_sign: to cancel.
+"""
+
+checkProductMistake = """
+Please try again; the provided details could not be found in our system.
+"""
+
+checkProductSuccess = """
+Thank you! As a verified customer, you have access to all public channels.
+If you have questions, contact one of our moderators: %s
+
+[insert animated weed guy here]
+"""
